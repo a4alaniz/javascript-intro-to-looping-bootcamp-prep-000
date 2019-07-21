@@ -14,10 +14,10 @@ function whileLoop(number)   {while (number > 0) {
   return "done";
  }
 
-function doWhileLoop(number) {
+function doWhileLoop(num) {
   function incrementVariable() {
-    return Math.random() >=.05
+    return Math.random() >=10
   }
 }
 do {console.log("I run once regardless."); }
-  while (incrementVariable() < number);
+  while (incrementVariable() < num);
