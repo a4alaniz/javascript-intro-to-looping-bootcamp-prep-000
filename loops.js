@@ -19,6 +19,6 @@ function doWhileLoop(number) {
     return Math.random() >=.05
   }
 }
-do {console.log("I run once regardless.")} {
+do {console.log("I run once regardless."); }
   while (incrementVariable() < number);
-}
+
