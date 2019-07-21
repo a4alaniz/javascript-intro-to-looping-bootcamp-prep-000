@@ -8,6 +8,6 @@ function forloop(array) {
   }
 }
 
-function whileLoop(25) {let countdown = n} while (countdown > 0) {
+function whileLoop(n) {let countdown = n} while (countdown > 0) {
   console.log(--countdown);
 }
