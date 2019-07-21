@@ -9,7 +9,8 @@ function forloop(array) {
 }
 
 var n = 25
-function whileLoop(n)   while (n > 0) {
+function whileLoop(n)   {while (n > 0) {
   console.log(--n);
-  if (n = 0) {return "done"}
+  if (n = 0) {return "done"};
+  }
  }
