@@ -13,3 +13,12 @@ function whileLoop(number)   {while (number > 0) {
   console.log(--number);}
   return "done";
  }
+
+function doWhileLoop(number) {
+  function incrementVariable() {
+    return Math.random() >=.05
+  }
+}
+do {console.log("I run once regardless.")} {
+  while (incrementVariable() < number);
+}
