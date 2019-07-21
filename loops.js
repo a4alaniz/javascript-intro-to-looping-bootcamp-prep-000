@@ -7,3 +7,7 @@ function forloop(array) {
       }
   }
 }
+
+function whileLoop(25) {let countdown = 25} while (countdown > 0) {
+  console.log(--countdown);
+}
